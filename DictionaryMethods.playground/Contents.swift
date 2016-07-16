@@ -51,7 +51,10 @@ let result1 = movies.updateValue(godfatherFilms, forKey: "The Godfather")
 let result2 = movies.updateValue(fastAndFuriousFilms, forKey: "The Fast and the Furious")
 
 print(result1)
+print("-----------")
 print(result2)
+
+print("-----------")
 
 let films = movies["The Godfather"]
 print(films)
@@ -131,7 +134,6 @@ if emptyDictionary.isEmpty {
 }
 
 
-
 // RETRIEVING KEYS
 
 let planetNames = Array(planetsAndTheirMoons.keys)
@@ -139,7 +141,6 @@ let planetNames = Array(planetsAndTheirMoons.keys)
 for planet in planetsAndTheirMoons.keys {
     print(planet)
 }
-
 
 
 // RETRIEVING VALUES
